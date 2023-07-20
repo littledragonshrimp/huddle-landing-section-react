@@ -93,10 +93,10 @@ button:hover {
   box-shadow: #242424 4px 4px;
 }
 
-
-
-
 footer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
   flex-direction: row;
 }
 
@@ -112,7 +112,7 @@ footer {
 }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1000px) {
 
   body,
   *,
@@ -135,7 +135,7 @@ footer {
   }
 
   .textContainer {
-    width: 80%;
+    width: 100%;
     text-align: start;
     margin-left: 2rem;
   }
@@ -163,9 +163,13 @@ footer {
     border-radius: 2rem;
   }
 
-  nav {
-    justify-content: flex-end;
+  footer {
+    margin-top: 4rem;
+    justify-content: end;
+
   }
+
+
 
 }
 
