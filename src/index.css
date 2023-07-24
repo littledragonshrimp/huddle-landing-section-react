@@ -69,7 +69,7 @@ h1 {
   font-size: 1.5rem;
   line-height: 1.8;
   margin: auto;
-  width: 80%;
+  width: 85%;
 }
 
 button {
@@ -132,12 +132,13 @@ footer {
 
   .imgContainer {
     width: 100%;
+    margin-right: 3rem;
   }
 
   .textContainer {
     width: 100%;
     text-align: start;
-    margin-left: 2rem;
+    margin-left: 3rem;
   }
 
   h1 {
