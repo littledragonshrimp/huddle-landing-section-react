@@ -165,9 +165,16 @@ footer {
   }
 
   footer {
-    margin-top: 4rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
     justify-content: end;
 
+  }
+
+  .botIcon {
+    margin-right: .5rem;
+    margin-left: .5rem;
   }
 
 
